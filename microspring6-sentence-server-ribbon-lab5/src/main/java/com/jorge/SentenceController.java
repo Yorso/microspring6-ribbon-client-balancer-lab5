@@ -1,8 +1,5 @@
 package com.jorge;
 
-import java.net.URI;
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
@@ -36,7 +33,7 @@ public class SentenceController {
 		;
 	}
 
-	
+
 	/**
 	 * Assemble a sentence by gathering random words of each part of speech:
 	 */

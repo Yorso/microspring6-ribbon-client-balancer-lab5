@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class WordController {
 
-	@Value("${words}") String words;
+	@Value("${words}") String words; //Comment this line to test "BONUS - Multiple Clients"
+	//String words = "icicle,refrigerator,blizzard,snowball"; //Uncomment this line to test "BONUS - Multiple Clients"
 	
 	@RequestMapping("/")
 	public @ResponseBody String getWord() {

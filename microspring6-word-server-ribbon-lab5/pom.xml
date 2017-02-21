@@ -60,11 +60,13 @@
 		</dependency>
 
 		<!-- Allow for automatic restarts when classpath contents change. -->
-	    <dependency>
+	    <!-- We comment this dependency because of testing "BONUS - Multiple Clients".
+	         We don't want restart the word server automatically to test this point --> 
+	    <!-- dependency>
 	        <groupId>org.springframework.boot</groupId>
 	        <artifactId>spring-boot-devtools</artifactId>
 	        <optional>true</optional>
-	    </dependency>
+	    </dependency -->
 	</dependencies>
 	
 	<build>
