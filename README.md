@@ -44,7 +44,7 @@
   ```
 13. Start a copy of the lab-5-word-server using the “noun” profile, just as you did earlier.
 
-14. While this new server is running, edit the WordController.java class.  Comment out the “String words” variable and replace it with this hard-coded version:
+14. While this new server is running, edit the WordController.java class.  Comment out the “@Value("${words}") String words” variable and replace it with this hard-coded version:
   ```
     String words = “icicle,refrigerator,blizzard,snowball”;
   ```
