@@ -37,11 +37,14 @@
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 	
-		<!--  This dependency is necessary to use Ribbon client balancer -->
-	 	<dependency>
+		<!--  We don't need this dependency to use Ribbon client balancer in the server (microspring6-word-server-ribbon-lab5).
+		      We need it in the client server (microspring6-sentence-server-ribbon-lab5).
+		      microspring6-word-server-ribbon-lab5 is the server and microspring6-sentence-server-ribbon-lab5 
+			  is the client server where Ribbon client balancer dependency must be. -->
+	 	<!-- dependency>
 	        <groupId>org.springframework.cloud</groupId>
 	        <artifactId>spring-cloud-starter-ribbon</artifactId>
-	    </dependency>
+	    </dependency -->
 	    
 		<dependency>
 		    <groupId>org.springframework.boot</groupId>
