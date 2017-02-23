@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jorge</groupId>
-	<artifactId>microspring5-eureka-server-lab4</artifactId>
+	<artifactId>microspring6-eureka-server-lab5</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>microspring5-eureka-server-lab4</name>
+	<name>microspring6-eureka-server-lab5</name>
 	<description>Spring Cloud Eureka Server</description>
 
 	<parent>
