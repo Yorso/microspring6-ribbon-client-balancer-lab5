@@ -36,6 +36,7 @@
 11. Locate and stop the copy of the “word” server that is serving up nouns.  If you’ve lost track, you can generally examine the console output of each app and find the one that reported itself to Eureka as “NOUN”.
 
 12. Open lab-5-word-server.  Edit the bootstrap.yml and add the following Eureka setting (the comment explains the purpose of this entry):
+
   ```
     # Allow Eureka to recognize two apps of the same type on the same host as separate instances:
     eureka:
