@@ -10,7 +10,7 @@
 
 2.  Start the common-config-server and the common-eureka-server.  These are versions of what you created and used in the last few chapters.
 
-3.  Start 5 separate copies of the lab-5-word-server, using the profiles "subject", "verb", "article", "adjective", and "noun".  There are several ways to do this, depending on your preference:
+3.  Start 5 separate copies of the microspring6-word-server-ribbon-lab5, using the profiles "subject", "verb", "article", "adjective", and "noun".  There are several ways to do this, depending on your preference:
   - If you wish to use Maven, open separate command prompts in the target directory and run these commands:
     - mvn spring-boot:run -Drun.jvmArguments="-Dspring.profiles.active=subject"
     - mvn spring-boot:run -Drun.jvmArguments="-Dspring.profiles.active=verb"
@@ -25,7 +25,7 @@
 
 **Part 2, Modify sentence server to use Ribbon**	
 
-6.  Run the lab-5-sentence-server project.  Refresh Eureka to see it appear in the list.  Test to make sure it works by opening [http://localhost:8020/sentence](http://localhost:8020/sentence).  You should see several random sentences appear.  We will refactor this code to make use of Ribbon.
+6.  Run the microspring6-sentence-server-ribbon-lab5 project.  Refresh Eureka to see it appear in the list.  Test to make sure it works by opening [http://localhost:8020/sentence](http://localhost:8020/sentence).  You should see several random sentences appear.  We will refactor this code to make use of Ribbon.
 
 7.  Stop the lab-5-sentence-server.  Add the org.springframework.cloud / spring-cloud-starter-ribbon dependency.
 
